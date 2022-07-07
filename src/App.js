@@ -1,10 +1,11 @@
 import "./App.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App TOO</h1>
+        <Weather />
         <footer>
           <a
             href="https://github.com/Winx1718/react-weather-too.git"
