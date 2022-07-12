@@ -13,20 +13,22 @@ export default function FormattedDate(props) {
   let day = days[props.date.getDay()];
   let hours = props.date.getHours();
   let min = props.date.getMinutes();
-  if (hours > 12) {
-    hours = hours - 12;
-  }
+  let time = `${hours}:${min}`;
   if (hours < 1) {
-    hours = 12;
+    time = `${hours + 12}:${min} AM`;
   } else {
-    hours = hours;
+    if (hours > 12) {
+      time = `${hours - 12}:${min} PM`;
+    } else {
+      time = `${props.date.getHours()}:${min} AM`;
+    }
   }
   if (min < 10) {
     min = `0${min}`;
   }
   return (
     <div>
-      {day} {hours}:{min}
+      {day} {time}
     </div>
   );
 }
