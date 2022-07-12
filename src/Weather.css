@@ -28,9 +28,8 @@
 }
 .Weather canvas {
   position: relative;
-  margin-right: 10px;
-  height: 64px;
-  width: 64px;
+  top: 5px;
+  margin-right: 5px;
 }
 .Weather .temp {
   color: #f5b5fc;
