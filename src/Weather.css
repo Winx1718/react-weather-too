@@ -12,6 +12,7 @@
 .Weather .btn {
   background: #2794eb;
   color: white;
+  font-family: FontAwesome;
 }
 .Weather h1 {
   color: #f5b5fc;
