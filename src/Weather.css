@@ -40,7 +40,7 @@
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .Weather .unit {
   font-size: 16px;
@@ -52,4 +52,10 @@
 .Weather .unit a {
   text-decoration: none;
   color: #2794eb;
+}
+.Weather .WeatherInfo .glyph {
+  font-family: FontAwesome;
+}
+.Weather .WeatherInfo {
+  margin-left: 12px;
 }
