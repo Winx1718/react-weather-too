@@ -1,3 +1,11 @@
+Title: React Weather Application Too
+
+Description: This is a online weather app built with HTML5, CSS3, BootStrap, and React.js. You can search for any city in the search bar or use the arrow to view weather at your current location. The app will then pull current weather, temperature, humidity, and wind from [Open Weather API](https://openweathermap.org/). It will also render the forecast for the next 5 days.
+
+The App is hosted on Netlify and can be opened with the following https://rainbow-stroopwafel-e81baa.netlify.app/ link.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
